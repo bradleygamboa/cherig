@@ -1,9 +1,13 @@
 /* ------------------ BASE STYLES ------------------ */
+@font-face {
+	font-family: french_font;
+	src: url('../fonts/VictorianParlor.ttf');
+}
 
 html {
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: black;
 }
 
 .bio{
@@ -11,6 +15,8 @@ html {
     font-size: 16px;
     margin-left: 12%;
     margin-top: 10px;
+    color: white;
+    background-color: black;
 }
 
 
@@ -42,6 +48,7 @@ html {
     -webkit-transition-timing-function: linear;
     transition-timing-function: linear;
     -webkit-transform: translateZ(0);
+    background-color: black;
 }
 
 .nav > li > a:focus {
@@ -94,15 +101,17 @@ html {
 }
 
 .navbar-nav.nav-text-light > li > a {
-    color: black;
+    font-family: french_font;
+    font-size: 32px;
+    color: white;
 }
 
 .navbar-nav.nav-text-light > li > a:hover {
-    border-bottom-color: black;
+    border-bottom-color: white;
 }
 
 .navbar-nav.nav-text-light > li.active > a {
-    border-bottom-color: black;
+    border-bottom-color: white;
 }
 
 .navbar {
@@ -164,7 +173,7 @@ html {
 
 .content-section-b {
     padding: 100px 0;
-    background-color: white;
+    background-color: black;
     /*background-image: url();*/
 }
 
