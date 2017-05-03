@@ -1,7 +1,7 @@
 /* ------------------ BASE STYLES ------------------ */
 @font-face {
-	font-family: french_font;
-	src: url('../fonts/neo.ttf');
+	font-family: nav_font;
+	src: url('../fonts/font.ttf');
 }
 
 html {
@@ -11,10 +11,14 @@ html {
 }
 
 .bio{
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
     color: white;
     background-color: black;
+    font-family: nav_font;
+}
+h2{
+  font-family: nav_font;
 }
 
 
@@ -99,7 +103,8 @@ html {
 }
 
 .navbar-nav.nav-text-light > li > a {
-    font-family: french_font;
+    margin-top: 5px;
+    font-family: nav_font;
     font-size: 32px;
     color: white;
 }
