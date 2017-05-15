@@ -17,8 +17,15 @@ html {
     background-color: black;
     font-family: nav_font;
 }
+h1{
+	color: red;
+}
 h2{
   font-family: nav_font;
+}
+
+.menu span{
+		text-align: right;
 }
 
 
