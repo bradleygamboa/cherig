@@ -18,7 +18,7 @@ html {
     font-family: nav_font;
 }
 h1{
-	color: red;
+	font-size: 48px;
 }
 h2{
   font-family: nav_font;
@@ -169,7 +169,7 @@ h2{
 
 @media screen and (max-width: 767px) {
     .navbar-collapse {
-        background-color: pink;
+        background-color: black;
     }
 }
 
