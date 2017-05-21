@@ -69,6 +69,19 @@
         interval: 5000 //changes the speed
     })
     </script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mikeflynn/egg.js/master/egg.min.js"></script>
+    <script>
+    var egg = new Egg();
+egg
+  .addCode("up,up,down,down,left,right,left,right,b,a", function() {
+    jQuery('#egggif').fadeIn(500, function() {
+      window.setTimeout(function() { jQuery('#egggif').hide(); }, 5000);
+    });
+  })
+  .addHook(function(){
+    console.log("You've saved the universe! Consider yourself a hero!");
+  }).listen();
+    </script>
 </body>
 
 </html>
