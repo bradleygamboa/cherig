@@ -158,7 +158,7 @@ h2{
 .navbar.navbar-light .navbar-nav.nav-text-light > li.active > a {
     border-bottom-color: pink;
 }
-
+/*navbar button mobile*/
 .navbar-toggle {
     background-color: black;
 }
@@ -172,7 +172,7 @@ h2{
         background-color: black;
     }
 		h1{
-			font-size: 24px;
+			font-size: 32px;
 		}
 		h4{
 			font-size: 16px;
